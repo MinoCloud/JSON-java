@@ -1,0 +1,6 @@
+/build
+/jar
+/.gradle
+/.classpath
+/.DS_Store
+/.project
