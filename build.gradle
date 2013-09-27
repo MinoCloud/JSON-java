@@ -11,10 +11,6 @@ sourceSets {
     }
 }
 
-uploadArchives {
-    repositories {
-       flatDir {
-           dirs 'jar'
-       }
-    }
+jar {
+  destinationDir = file('jar/')
 }
